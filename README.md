@@ -1,6 +1,6 @@
 # manpdf
 ________
-take the man pages and make a pdf
+Takes the man pages for a command and makes a pdf.
 
 ```
 manpdf [name]
