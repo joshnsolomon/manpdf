@@ -2,6 +2,5 @@
 
 command=$1
 
-man -t $command > $command.ps
-ps2pdf $command.ps $command.pdf
+man -t $command > $command.ps && ps2pdf $command.ps $command.pdf
 rm $command.ps
